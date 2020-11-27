@@ -1,0 +1,55 @@
+
+.alertify .ajs-body .ajs-content {
+    padding: 16px 0px 16px 0px;
+}
+
+.alertify-notifier .ajs-message.ajs-visible{
+    margin-top:80px;
+}
+
+.alertify .ajs-header {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ajs-button{
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
+.alertify-notifier .ajs-message{
+    border: 1px solid;
+    border-color:#f0f0f0;
+    border-radius: 5px;
+    background:#fff;
+}
+
+/*
+.alertify-notifier .ajs-message.ajs-success {
+    color:#32921C;
+    background:rgba(246, 255, 244, 0.99)
+}
+
+.alertify-notifier .ajs-message.ajs-error {
+    color:#C40D0D;
+    background:rgba(255, 241, 241, 0.99)
+}
+
+.alertify-notifier .ajs-message.ajs-warning {
+    color: #CA650E;
+    background:rgba(255, 251, 241, 0.99)
+}*/
+
+
+.alertify-notifier .ajs-message.ajs-success {
+    color:#fff;
+    background:#32921C
+}
+
+.alertify-notifier .ajs-message.ajs-error {
+    color:#fff;
+    background:#C40D0D
+}
+
+.alertify-notifier .ajs-message.ajs-warning {
+    color: #fff;
+    background:#CA650E
+}

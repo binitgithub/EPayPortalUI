@@ -1,0 +1,131 @@
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-text {
+    color: rgba(255, 255, 255, .75);
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: calc(100vh - 56px);
+    transition: all 0.3s;
+}
+.menu ul li a {
+    display: block;
+    padding: 1.2rem 2rem;
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+}
+
+/*
+.menu ul li a:hover, .menu ul .active a {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, .25);
+}
+*/
+
+.menu ul li a:hover, .menu ul .active a {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, .25);
+}
+
+.menu .inactive-link {
+    pointer-events: none;
+    cursor: default;
+    background: rgba(0, 0, 0, 0);
+ }
+
+.menu ul ul a {
+    padding-left: 2.5rem;
+    background: rgba(0, 0, 0, .25);
+}
+.menu [data-toggle="collapse"] {
+    position: relative;
+}
+.menu [data-toggle="collapse"]:before {
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 1rem;
+}
+.menu [aria-expanded="true"] {
+    background: rgba(0, 0, 0, .25);
+}
+.menu [aria-expanded="true"]:before {
+    content: "\f0d8";
+}
+/*
+.menu.toggled {
+    margin-left: -250px;
+} */
+
+.content {
+    width: 100%;
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/*
+@media (max-width: 768px) {
+    .menu {
+        margin-left: -250px;
+    }
+    .menu.toggled {
+        margin-left: 0;
+    }
+}
+*/
+
+#menu{
+    margin-left:-300px;
+    /*padding:20px 0px;*/
+    padding:0px 0px 60px 0px;
+    position:fixed;
+    top:58px;
+    left:0;
+    width:200px;
+    z-index:999;
+    background:#fff;
+    height:100vh;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    overflow-y: scroll;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+  #menu.open{
+      margin-left:0px;
+  }
+  
+  #menu .fa{
+    margin-right:10px;
+  }
+  
+  #menu .nav-link{
+    margin-bottom:15px;
+  }
+  
+  .menu-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #3c424b;
+  }

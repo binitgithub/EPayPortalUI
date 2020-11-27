@@ -1,0 +1,26 @@
+.edit-agent{
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.delete-agent{
+    cursor:pointer;
+    margin-right:10px;
+}
+
+#price-buttons .btn{
+    margin-top:10px;
+}
+
+/*
+.agents-table tbody tr {
+    background: #fff
+}
+
+.agents-table tbody tr:nth-child(4n+1), .agents-table tr:nth-child(4n+2) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.agents-table tr > td > i{
+    padding:10px
+} */
